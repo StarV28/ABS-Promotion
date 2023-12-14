@@ -1000,6 +1000,7 @@ textarea.input {
 .supply__chain {
   width: 58.3333333333%;
   position: absolute;
+  top: 10.9375rem;
   right: 0;
 }
 
@@ -2174,10 +2175,6 @@ textarea.input {
     font-size: 1rem;
   }
 
-  .supply__chain {
-    top: 10.9375rem;
-  }
-
   .chain h4 {
     font-size: 2.4375rem;
   }
@@ -2528,10 +2525,6 @@ textarea.input {
     font-size: 0.75rem;
   }
 
-  .supply__chain {
-    top: 0.0000000625rem;
-  }
-
   .chain h4 {
     font-size: 1rem;
   }
@@ -2689,7 +2682,7 @@ textarea.input {
   }
 
   .supply__chain {
-    width: 77.7777777778%;
+    top: 2.1875rem;
   }
 
   .chain {
@@ -2851,8 +2844,13 @@ textarea.input {
     gap: 1.25rem;
   }
 
+  .supply__gold-fraim {
+    display: none;
+  }
+
   .supply__imag {
-    margin-bottom: 4.4375rem;
+    margin-bottom: 0rem;
+    width: 100%;
   }
 
   .supply__chain {
@@ -2974,6 +2972,7 @@ textarea.input {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
 
   .exec-contain__item::after {
@@ -3392,18 +3391,6 @@ textarea.input {
 @supports not (font-size: clamp( 0.75rem , 0.6723300971rem  +  0.3883495146vw , 1rem )) {
     .exec-contain__text {
       font-size: calc(0.75rem + 0.25 * (100vw - 20rem) / 64.375);
-    }
-}
-
-@supports (top: clamp( 0.0000000625rem , -3.3980581705rem  +  16.990291165vw , 10.9375rem )) {
-    .supply__chain {
-      top: clamp( 0.0000000625rem , -3.3980581705rem  +  16.990291165vw , 10.9375rem );
-    }
-}
-
-@supports not (top: clamp( 0.0000000625rem , -3.3980581705rem  +  16.990291165vw , 10.9375rem )) {
-    .supply__chain {
-      top: calc(0.0000000625rem + 10.9374999375 * (100vw - 20rem) / 64.375);
     }
 }
 
